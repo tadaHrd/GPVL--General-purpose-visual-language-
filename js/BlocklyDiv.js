@@ -32,6 +32,10 @@ const toolbox = {
         {
           "kind": "block",
           "type": "math_arithmetic"
+        },
+        {
+          "kind": "block",
+          "type": "math_single",
         }
       ]
 	  },
@@ -119,7 +123,7 @@ function setSize() {
 }
 
 function upload(stateToLoad) {
-    Blockly.serialization.workspaces.load(stateToLoad, workspace)
+  Blockly.serialization.workspaces.load(stateToLoad, workspace)
 }
 
 setSize();

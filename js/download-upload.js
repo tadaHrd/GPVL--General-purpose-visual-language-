@@ -13,11 +13,16 @@ document.getElementById("saveFile").addEventListener("click", e => {
   )
 });
 
-document.getElementById("loadFile").addEventListener('change', () => {
-  const file = document.getElementById("loadFile").files[0];
+document.getElementById("loadFile").addEventListener('change', e => {
+  const file = e.target.files[0];
   const reader = new FileReader();
   reader.onload = (event) => {
     upload(JSON.parse(event.target.result));
+    console.info({
+      "message": "File loaded",
+      "name": file.name,
+      "size": file.size
+    });
   };
   reader.readAsText(file);
 });
