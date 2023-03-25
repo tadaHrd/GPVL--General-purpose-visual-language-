@@ -1,1 +1,7 @@
-
+- STD
+  - Process
+    - Main function
+    - Exit process (message, exit code)
+  - IO
+    - `print` - Prints to the standard output
+    - `get line` - Gets a line from the standard input
