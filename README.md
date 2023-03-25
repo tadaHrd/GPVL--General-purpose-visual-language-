@@ -4,6 +4,6 @@
 
 ## Table of contents
 
-| Doc | Link |
-| - | - |
-| Blocks | [blocks/blocks.md](blocks/)
+| Doc |
+| - |
+| [Blocks](blocks/)
