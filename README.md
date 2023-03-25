@@ -6,4 +6,5 @@
 
 | Doc |
 | - |
-| [Blocks](blocks/)
+| [Blocks](blocks/) |
+| [STD blocks](std/) |
