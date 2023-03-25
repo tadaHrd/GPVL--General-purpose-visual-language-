@@ -1,4 +1,4 @@
-# GPVL (General purpose visual language)
+# GPVL (General purpose visual language) documentation
 
 ## Features
 
