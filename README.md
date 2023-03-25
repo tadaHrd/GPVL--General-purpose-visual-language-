@@ -27,7 +27,7 @@
   1. Create variable button
   2. Change variable block
   3. Set variable block
-  4. Variable (Read-only)
+  4. Variable block (Read-only)
 
 - Testing blocks:
   - Used for testing
