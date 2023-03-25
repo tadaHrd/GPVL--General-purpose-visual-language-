@@ -1,4 +1,53 @@
 # Blocks documentation
 
-## [Basic blocks (pre defined by Blockly)](blocks.md)
-## [Blocks from the standard library](custom.md)
+## Blocks
+- Logic
+  - If
+    - If statement
+  - Boolean
+    - Comparison
+    - Bitwise `or`, `and`, `not`
+    - Boolean value (true/false)
+    - `null` value
+    - Ternary (match/switch but only boolean)
+- Loops
+  - `Repeat _ times` loop
+  - `While`, `Until`
+  - Index based `for` loop
+  - `for each in list _` loop
+  - Break/Continue
+- Math
+  - Literal
+  - Calculation (`+`, `-`, `*`, `/`, `^`)
+  - Function (`sqrt(x)`, `abs(x)`, `-x`, `ln(x)`, `log10(x)`, `e ^ x`, `10 ^ x`)
+  - Trigonometry (`sin`, `cos`, `tan`, `asin`, `acos`, `atan`)
+  - Constants (`PI`, `e`, Golden Ratio, `sqrt(2)`, `sqrt(1/2)`, `∞`)
+  - Even, odd, prime, whole, positive, negative, divisible by
+  - Round, round up, round down
+  - (`sum`, `min`, `max`, `average`, `median`, `modes`, `standard deviation`, `random item`) of `list`
+  - `remainder of x / y`
+  - `constrain x, low y, high z`
+  - Random integer from `x` to `y`
+  - Random fraction (0.0-1.0)
+  - `atan2 of x, y`
+- Lists
+  - `create empty list`
+  - `create list with (x, y, ...)`
+  - `create list with item x repeated y times`
+  - `x is empty`
+  - `in list x find (first, last) occurence of y`
+  - `in list x (get, get & remove, remove) (# y, # y from end, first, last, random)`
+  - `in list x (set, insert)               (^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^) as z`
+- Strings
+  - String literal
+- Variables
+  - Create variable button
+  - `set xVar to y`
+  - `change xVar by y`
+  - `xVar` (getter)
+- Functions
+  - No output functions
+  - Functions with output
+  - Conditional return (`if x return y`)
+- STD
+  - # [THE STANDARD LIBRARY](link)
