@@ -6,5 +6,4 @@
 
 | Doc | Link |
 | - | - |
-| Blocks | [blocks/blocks.md](blocks/blocks.md)
-| Custom blocks | [blocks/custom.md](blocks/custom.md)
+| Blocks | [blocks/blocks.md](blocks/)
