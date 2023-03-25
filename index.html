@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="fonts/fira-code/fira_code.css">
+
+  <link rel="stylesheet" type="text/css" href="styles/blockly.css">
+  <link rel="stylesheet" href="styles/fonts.css">
+  <link rel="stylesheet" href="styles/elements.css">
+  <link rel="stylesheet" href="styles/colors.css">
+
+
+  <title>Document</title>
+</head>
+<body style="background-color: var(--dark-bg-color);">
+  <h1 class="font-fira-code light" style="font-size: 3rem;">Title</h1>
+
+  <h3 class="light inline-block font-fira-code">Size (px): </h3>
+  <input id="blocklySize" type="number" step="10" value="844">
+
+  <a id="saveFile" class="button" download="workspace.json">Save File</a>
+  <input id="loadFile" class="button" type="file">
+  <br><br>
+
+  <div id="blocklyDiv" style="width: 800px; height: 500px;"></div>
+
+
+  <script src="https://unpkg.com/blockly/blockly.min.js"></script>
+
+  <script src="js/download-upload.js"></script>
+
+  <script src="js/getAttr.js"></script>
+  <script src="js/blocklyDiv.js"></script>
+</body>
+</html>
