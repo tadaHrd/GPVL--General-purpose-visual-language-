@@ -12,8 +12,8 @@
   <link rel="stylesheet" href="styles/elements.css">
   <link rel="stylesheet" href="styles/colors.css">
 
-
-  <title>GPVL</title>
+  <link rel="icon" href="favicon.png">
+  <title>GPVL - General Purpose Visual Language</title>
 </head>
 <body style="background-color: var(--dark-bg-color);">
   <h1 class="font-fira-code light" style="font-size: 3rem;">GPVL</h1>
@@ -24,12 +24,16 @@
 
   <a id="saveFile" class="button" download="workspace.json">Save File</a>
   <input id="loadFile" class="button" type="file">
+
+  <h3 class="button" onclick="console.log()"></h3>
   <br><br>
 
   <div id="blocklyDiv" style="width: 800px; height: 500px;"></div>
 
 
-  <script src="https://unpkg.com/blockly/blockly.min.js" type="text/javascript"></script>
+  <script type="text/javascript" src="js/blocklyDefinitions.js"></script>
+
+  <script src="js/blockly.min.js" type="text/javascript"></script>
 
   <script src="js/download-upload.js" type="text/javascript"></script>
 

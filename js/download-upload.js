@@ -21,8 +21,10 @@ document.getElementById("loadFile").addEventListener('change', e => {
     console.info({
       "message": "File loaded",
       "name": file.name,
-      "size": file.size
+      "size (chars)": file.size
     });
   };
   reader.readAsText(file);
 });
+
+const s = "loggin";
